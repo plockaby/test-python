@@ -7,6 +7,8 @@ packages = [{include = "testrepo", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.12 <3.13"
+quart = "^0.19.6"
+hypercorn = {extras = ["uvloop"], version = "^0.17.3"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.1"
