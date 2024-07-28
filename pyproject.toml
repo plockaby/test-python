@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "testrepo"
+version = "0.0.0"  # DO NOT CHANGE -- set during build
+description = "Easily monitor your small compute environments."
+authors = ["Paul Lockaby <paul@paullockaby.com>"]
+packages = [{include = "testrepo", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12 <3.13"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+pytest-cov = "^5.0.0"
+pre-commit = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
