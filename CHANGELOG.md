@@ -1,3 +1,9 @@
+## v0.4.0a0 (2024-07-29)
+
+### Feat
+
+- test tag number in builds (#16)
+
 ## v0.3.0 (2024-07-29)
 
 ### Feat
