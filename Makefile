@@ -47,7 +47,7 @@ push:
 
 .PHONY: clean
 clean:
-	rm -rf dist/ .pytest_cache/ .coverage htmlcov/
+	rm -rf dist/ .pytest_cache/ .coverage htmlcov/ .mypy_cache/
 	find . -type d -name "__pycache__" -print0 | xargs -0 rm -rf
 
 .PHONY: pre-commit

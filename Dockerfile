@@ -1,4 +1,4 @@
-FROM python:3.12.4-slim-bookworm@sha256:740d94a19218c8dd584b92f804b1158f85b0d241e5215ea26ed2dcade2b9d138 AS base
+FROM python:3.12.5-slim-bookworm@sha256:105e9d85a67db1602e70fa2bbb49c1e66bae7e3bdcb6259344fe8ca116434f74 AS base
 
 # github metadata
 LABEL org.opencontainers.image.source=https://github.com/paullockaby/test-repo
