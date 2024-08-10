@@ -12,7 +12,6 @@ This is a testing ground for building a Python project with all of the bells and
 ## Table of contents
 
 * [Introduction](#introduction)
-* [Installation](#installation)
 * [Quick start](#quick-start)
 * [Usage](#usage)
 * [Known issues and limitations](#known-issues-and-limitations)
@@ -32,7 +31,7 @@ This repository is intended to be a place where all of the bells and whistles of
 
 So, use this repository as a source to figure out how to do your own thing.
 
-## Installation
+## Quick start
 
 First you will want to generate an SSH deploy key for the repository, like this:
 
@@ -80,13 +79,9 @@ What is next? In order to use this repository more effectively there are things 
 3. Write commit messages only using convential commit messages. Make sure that the SUBJECT LINE of the pull request describes what the pull request does because that is the only thing that will appear in the changelog.I
 4. When you are ready to make a release, go to GitHub Actions page and choose "Create Releases" and then click "Run workflow" and run the workflow against the `main` branch. You will see, based on the commit messages in your pull requests, an update to CHANGELOG.md, a new tag, a GitHub Release, plus whatever you put into the `release-build.yaml` action.
 
-## Quick start
-
-See [Installation](#installation).
-
 ## Usage
 
-See [Installation](#installation).
+See [Quick Start](#quick-start).
 
 ## Known issues and limitations
 
