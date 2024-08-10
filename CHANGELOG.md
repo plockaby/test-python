@@ -1,3 +1,10 @@
+## v1.1.1 (2024-08-09)
+
+### Fix
+
+- run mypy tests from Makefile
+- minor fixes to container build
+
 ## v1.1.0 (2024-08-08)
 
 ### Feat
