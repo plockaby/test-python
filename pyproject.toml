@@ -1,7 +1,7 @@
 [project]
 name = "testrepo"
 readme = "README.md"
-license = {file = "LICENSE.md"}
+license = {file = "LICENSE"}
 requires-python = ">=3.12 <3.13"
 
 [tool.poetry]
