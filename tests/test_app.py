@@ -7,8 +7,4 @@ def test_health_route():
     response = test_client.get("/")
     assert response.status_code == 200
     json_data = response.get_json()
-    assert json_data == {
-        "status": "pass",
-        "message": "flux capacitor is fluxing",
-        "version": "0.0.0"
-    }
+    assert json_data == {"status": "pass", "message": "flux capacitor is fluxing", "version": "0.0.0"}
