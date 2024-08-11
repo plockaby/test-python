@@ -14,11 +14,15 @@ def load() -> Flask:
     @app.route("/")
     def health() -> Response:
         return make_response(
-            jsonify({
-                "status": "pass",
-                "message": "flux capacitor is fluxing",
-                "version": __version__,
-            }), 200)
+            jsonify(
+                {
+                    "status": "pass",
+                    "message": "flux capacitor is fluxing",
+                    "version": __version__,
+                }
+            ),
+            200,
+        )
 
     # tell ourselves what we've mapped
     if app.logger.isEnabledFor(logging.DEBUG):
