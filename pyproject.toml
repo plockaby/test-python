@@ -14,7 +14,7 @@ packages = [{include = "testrepo", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.12 <3.13"
 flask = "^3.0.3"
-gunicorn = "^22.0.0"
+gunicorn = "^23.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.1"
