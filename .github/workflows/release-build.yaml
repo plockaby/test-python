@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
+      contents: write
       packages: write
       id-token: write
 
@@ -83,6 +83,25 @@ jobs:
     #    env:
     #      IMAGE_ARCH: linux/amd64,linux/arm64
     #      IMAGE_NAME: ghcr.io/myaccount/myrepo
+
+      - name: Install poetry
+        run: pipx install poetry
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.x"
+          cache: "poetry"
+
+      - name: Run python build
+        run: |
+          poetry build --no-interaction
+
+      - name: Update release
+        uses: softprops/action-gh-release@v2.0.8
+        with:
+          files: "dist/*"
+          tag_name: "${{ github.ref_name }}"
 
       - run: |
           echo "Finished building and pushing containers for version ${{ github.ref_name }}."
