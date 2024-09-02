@@ -1,3 +1,18 @@
+## v1.2.0 (2024-09-02)
+
+### Feat
+
+- testing package releases
+- disable mypy
+- change formatting to use black instead of yapf
+
+### Fix
+
+- **deps**: bump python from `105e9d8` to `59c7332`
+- updating gunicorn for vuln
+- fixing license reference
+- shellcheck changes
+
 ## v1.1.1 (2024-08-09)
 
 ### Fix
