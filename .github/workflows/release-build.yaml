@@ -95,6 +95,7 @@ jobs:
 
       - name: Run python build
         run: |
+          poetry version ${{ github.ref_name }}
           poetry build --no-interaction
 
       - name: Update release
