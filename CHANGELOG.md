@@ -1,3 +1,9 @@
+## v1.3.0 (2024-09-02)
+
+### Feat
+
+- correctly set version on build
+
 ## v1.2.0 (2024-09-02)
 
 ### Feat
