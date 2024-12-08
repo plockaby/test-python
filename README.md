@@ -61,8 +61,8 @@ The rule that we're going to create is will look like this:
     * Require branches to be up to date before merging
     * Status checks that are required:
       * `tests / pre-commit` - GitHub Actions
-      * `tests / security` - GitHub Actions
       * `tests / test` - GitHub Actions
+      * `security / security` - GitHub Actions
   * Block force pushes
 
 So to sum up:
