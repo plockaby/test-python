@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-jobs: {}
+#jobs:
 #  tests:
 #    uses: ./.github/workflows/tests.yaml
 #    secrets: inherit
