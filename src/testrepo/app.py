@@ -8,7 +8,7 @@ from testrepo import __version__
 
 def load() -> Flask:
     app = Flask(__name__, static_folder=None)
-    app.config.from_prefixed_env("TEST")
+    app.config.from_prefixed_env("APP")
     app.logger.info("starting web application version %s", __version__)
 
     @app.route("/")
