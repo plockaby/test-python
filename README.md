@@ -1,11 +1,10 @@
-# test-repo
+# test-python
 
 This is a testing ground for building a Python project with all of the bells and whistles of a build pipeline using GitHub Actions.
 
-![GitHub License](https://img.shields.io/github/license/paullockaby/test-repo)
-![GitHub Release](https://img.shields.io/github/v/release/paullockaby/test-repo)
-![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fpaullockaby%2Ftest-repo%2Fmain%2Fpyproject.toml)
-[![Merge Pipelines](https://github.com/paullockaby/test-repo/actions/workflows/merge.yaml/badge.svg)](https://github.com/paullockaby/test-repo/actions/workflows/merge.yaml)
+![GitHub License](https://img.shields.io/github/license/paullockaby/test-python)
+![GitHub Release](https://img.shields.io/github/v/release/paullockaby/test-python)
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fpaullockaby%2Ftest-python%2Fmain%2Fpyproject.toml)
 
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/106882571030731815?domain=https%3A%2F%2Funcontrollablegas.com)](https://uncontrollablegas.com/@paul)
 
