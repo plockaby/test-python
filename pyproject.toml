@@ -1,20 +1,18 @@
 [project]
 name = "testrepo"
+version = "0.0.0"  # DO NOT CHANGE -- set during build
+description = "This is a test application."
+authors = [{name = "Paul Lockaby", email = "paul@paullockaby.com"}]
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.13 <3.14"
+dependencies = []
 
 [tool.poetry]
-name = "testrepo"
-version = "0.0.0"  # DO NOT CHANGE -- set during build
-description = "This is a test application."
-authors = ["Paul Lockaby <paul@paullockaby.com>"]
 packages = [{include = "testrepo", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.13 <3.14"
-flask = "^3.0.3"
-gunicorn = "^23.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.1"
@@ -22,5 +20,5 @@ pytest-cov = "^6.0.0"
 pytest-mypy = "^0.10.3"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=2.0"]
 build-backend = "poetry.core.masonry.api"
