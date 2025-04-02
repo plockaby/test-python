@@ -6,10 +6,16 @@ authors = [{name = "Paul Lockaby", email = "paul@paullockaby.com"}]
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.13 <3.14"
-dependencies = []
+dynamic = ["dependencies"]
 
 [tool.poetry]
 packages = [{include = "testrepo", from = "src"}]
+
+# these are deprecated but necessary for dependabot
+name = "testrepo"
+version = "0.0.0"  # DO NOT CHANGE -- set during build
+description = "This is a test application."
+authors = ["Paul Lockaby <paul@paullockaby.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.13 <3.14"
