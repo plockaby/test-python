@@ -123,3 +123,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
 ## Acknowledgements
 
 I took the format for this README file from [Michael Hucka's READMINE repository](https://github.com/mhucka/readmine).
+
+Adding something for making a new release.
