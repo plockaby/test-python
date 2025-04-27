@@ -1,3 +1,9 @@
+## v1.4.1 (2025-04-27)
+
+### Fix
+
+- adding something for a new release
+
 ## v1.4.0 (2025-04-27)
 
 ### Feat
